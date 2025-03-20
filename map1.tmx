@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="50" height="25" tilewidth="64" tileheight="64" infinite="0" nextlayerid="4" nextobjectid="245">
+<tileset firstgid="1" source="background.tsx"/>
+<tileset firstgid="64" source="object.tsx"/>
+ <layer id="1" name="Слой тайлов 1" width="50" height="25">
+  <data encoding="csv">
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,
+16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,
+25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,
+16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,
+25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,
+16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,
+25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,
+16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,
+25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,
+16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,
+25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,
+16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,
+25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,
+16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,
+25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,
+16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,18,16,17,
+25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,27,25,26,
+7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8,9,7,8
+</data>
+ </layer>
+ <objectgroup id="2" name="Слой объектов 1">
+  <object id="123" name="wall" type="wall" gid="69" x="0" y="192" width="192" height="190"/>
+  <object id="124" name="wall" type="wall" gid="69" x="192" y="192" width="192" height="190"/>
+  <object id="125" name="wall" type="wall" gid="69" x="384" y="192" width="192" height="190"/>
+  <object id="126" name="wall" type="wall" gid="69" x="576" y="192" width="192" height="190"/>
+  <object id="127" name="wall" type="wall" gid="69" x="768" y="192" width="192" height="190"/>
+  <object id="128" name="wall" type="wall" gid="69" x="960" y="192" width="192" height="190"/>
+  <object id="129" name="wall" type="wall" gid="69" x="1152" y="192" width="192" height="190"/>
+  <object id="130" name="wall" type="wall" gid="69" x="1344" y="192" width="192" height="190"/>
+  <object id="131" name="wall" type="wall" gid="69" x="1536" y="192" width="192" height="190"/>
+  <object id="132" name="wall" type="wall" gid="69" x="1728" y="192" width="192" height="190"/>
+  <object id="133" name="wall" type="wall" gid="69" x="1920" y="192" width="192" height="190"/>
+  <object id="134" name="wall" type="wall" gid="69" x="2112" y="192" width="192" height="190"/>
+  <object id="135" name="wall" type="wall" gid="69" x="2304" y="192" width="192" height="190"/>
+  <object id="136" name="wall" type="wall" gid="69" x="2496" y="192" width="192" height="190"/>
+  <object id="137" name="wall" type="wall" gid="69" x="2688" y="192" width="192" height="190"/>
+  <object id="138" name="wall" type="wall" gid="69" x="2880" y="192" width="192" height="190"/>
+  <object id="139" name="wall2" type="wall2" gid="70" x="3072" y="192" width="64" height="190"/>
+  <object id="141" name="wall2" type="wall2" gid="70" x="3136" y="192" width="64" height="190"/>
+  <object id="142" name="wall2" type="wall2" gid="70" x="3136" y="384" width="64" height="190"/>
+  <object id="143" name="wall2" type="wall2" gid="70" x="3136" y="576" width="64" height="190"/>
+  <object id="144" name="wall2" type="wall2" gid="70" x="3136" y="768" width="64" height="190"/>
+  <object id="145" name="wall2" type="wall2" gid="70" x="3136" y="960" width="64" height="190"/>
+  <object id="146" name="wall2" type="wall2" gid="70" x="3136" y="1152" width="64" height="190"/>
+  <object id="147" name="wall2" type="wall2" gid="70" x="3136" y="1344" width="64" height="190"/>
+  <object id="148" name="wall2" type="wall2" gid="70" x="3136" y="1536" width="64" height="190"/>
+  <object id="149" name="wall2" type="wall2" gid="70" x="0" y="384" width="64" height="190"/>
+  <object id="150" name="wall2" type="wall2" gid="70" x="0" y="576" width="64" height="190"/>
+  <object id="151" name="wall2" type="wall2" gid="70" x="0" y="768" width="64" height="190"/>
+  <object id="152" name="wall2" type="wall2" gid="70" x="0" y="960" width="64" height="190"/>
+  <object id="153" name="wall2" type="wall2" gid="70" x="0" y="1152" width="64" height="190"/>
+  <object id="155" name="wall2" type="wall2" gid="70" x="0" y="1344" width="64" height="190"/>
+  <object id="156" name="wall2" type="wall2" gid="70" x="0" y="1536" width="64" height="190"/>
+  <object id="157" name="wall3" type="wall3" gid="71" x="0" y="1600" width="192" height="64"/>
+  <object id="158" name="wall3" type="wall3" gid="71" x="192" y="1600" width="192" height="64"/>
+  <object id="159" name="wall3" type="wall3" gid="71" x="384" y="1600" width="192" height="64"/>
+  <object id="160" name="wall3" type="wall3" gid="71" x="576" y="1600" width="192" height="64"/>
+  <object id="161" name="wall3" type="wall3" gid="71" x="768" y="1600" width="192" height="64"/>
+  <object id="162" name="wall3" type="wall3" gid="71" x="960" y="1600" width="192" height="64"/>
+  <object id="163" name="wall3" type="wall3" gid="71" x="1152" y="1600" width="192" height="64"/>
+  <object id="164" name="wall3" type="wall3" gid="71" x="1344" y="1600" width="192" height="64"/>
+  <object id="165" name="wall3" type="wall3" gid="71" x="1536" y="1600" width="192" height="64"/>
+  <object id="166" name="wall3" type="wall3" gid="71" x="1728" y="1600" width="192" height="64"/>
+  <object id="167" name="wall3" type="wall3" gid="71" x="1920" y="1600" width="192" height="64"/>
+  <object id="168" name="wall3" type="wall3" gid="71" x="2112" y="1600" width="192" height="64"/>
+  <object id="169" name="wall3" type="wall3" gid="71" x="2304" y="1600" width="192" height="64"/>
+  <object id="170" name="wall3" type="wall3" gid="71" x="2496" y="1600" width="192" height="64"/>
+  <object id="171" name="wall3" type="wall3" gid="71" x="2688" y="1600" width="192" height="64"/>
+  <object id="172" name="wall3" type="wall3" gid="71" x="2880" y="1600" width="192" height="64"/>
+  <object id="173" name="wall3" type="wall3" gid="71" x="2880" y="1600" width="192" height="64"/>
+  <object id="174" name="wall4" type="wall4" gid="72" x="3072" y="1600" width="64" height="63"/>
+  <object id="175" name="wall4" type="wall4" gid="72" x="3136" y="1600" width="64" height="63"/>
+  <object id="179" name="wall" type="wall" gid="69" x="2944" y="1216" width="192" height="190"/>
+  <object id="180" name="wall" type="wall" gid="69" x="2752" y="1216" width="192" height="190"/>
+  <object id="181" name="wall" type="wall" gid="69" x="2560" y="1216" width="192" height="190"/>
+  <object id="182" name="wall" type="wall" gid="69" x="2368" y="1216" width="192" height="190"/>
+  <object id="183" name="wall" type="wall" gid="69" x="2176" y="1216" width="192" height="190"/>
+  <object id="185" name="wall" type="wall" gid="69" x="1792" y="1216" width="192" height="190"/>
+  <object id="186" name="wall" type="wall" gid="69" x="1600" y="1216" width="192" height="190"/>
+  <object id="187" name="wall" type="wall" gid="69" x="1408" y="1216" width="192" height="190"/>
+  <object id="188" name="wall" type="wall" gid="69" x="1216" y="1216" width="192" height="190"/>
+  <object id="189" name="wall" type="wall" gid="69" x="1024" y="1216" width="192" height="190"/>
+  <object id="190" name="wall" type="wall" gid="69" x="832" y="1216" width="192" height="190"/>
+  <object id="191" name="wall" type="wall" gid="69" x="640" y="1216" width="192" height="190"/>
+  <object id="192" name="wall" type="wall" gid="69" x="448" y="1216" width="192" height="190"/>
+  <object id="194" name="wall2" type="wall2" gid="70" x="384" y="1216" width="64" height="190"/>
+  <object id="195" name="wall2" type="wall2" gid="70" x="384" y="1024" width="64" height="190"/>
+  <object id="196" name="wall2" type="wall2" gid="70" x="384" y="384" width="64" height="190"/>
+  <object id="197" name="wall2" type="wall2" gid="70" x="384" y="576" width="64" height="190"/>
+  <object id="198" name="wall4" type="wall4" gid="72" x="384" y="832" width="64" height="63"/>
+  <object id="203" name="wall2" type="wall2" gid="70" x="1920" y="384" width="64" height="190"/>
+  <object id="204" name="wall2" type="wall2" gid="70" x="1920" y="576" width="64" height="190"/>
+  <object id="205" name="wall2" type="wall2" gid="70" x="1920" y="1024" width="64" height="190"/>
+  <object id="206" name="wall4" type="wall4" gid="72" x="1920" y="832" width="64" height="63"/>
+  <object id="207" name="wall2" type="wall2" gid="70" x="2176" y="1024" width="64" height="190"/>
+  <object id="208" name="wall4" type="wall4" gid="72" x="2176" y="832" width="64" height="63"/>
+  <object id="209" name="wall2" type="wall2" gid="70" x="2176" y="576" width="64" height="190"/>
+  <object id="210" name="wall2" type="wall2" gid="70" x="2176" y="384" width="64" height="190"/>
+  <object id="211" name="wall2" type="wall2" gid="70" x="1280" y="1024" width="64" height="190"/>
+  <object id="212" name="wall2" type="wall2" gid="70" x="1280" y="832" width="64" height="190"/>
+  <object id="213" name="wall2" type="wall2" gid="70" x="1280" y="640" width="64" height="190"/>
+  <object id="214" name="wall2" type="wall2" gid="70" x="1280" y="384" width="64" height="190"/>
+  <object id="216" name="wall4" type="wall4" gid="72" x="1280" y="448" width="64" height="63"/>
+  <object id="217" name="computer" type="computer" gid="73" x="2368" y="512" width="192" height="159"/>
+  <object id="218" name="computer" type="computer" gid="73" x="2816" y="512" width="192" height="159"/>
+  <object id="219" name="computer" type="computer" gid="73" x="2368" y="960" width="192" height="159"/>
+  <object id="220" name="computer" type="computer" gid="73" x="2816" y="960" width="192" height="159"/>
+  <object id="221" name="computer" type="computer" gid="73" x="1536" y="576" width="192" height="159"/>
+  <object id="222" name="table" type="table" gid="74" x="768" y="576" width="200" height="200"/>
+  <object id="223" name="table" type="table" gid="74" x="768" y="960" width="200" height="200"/>
+  <object id="225" name="fridge" type="fridge" gid="75" x="448" y="448" width="123" height="250"/>
+  <object id="228" name="window" type="window" gid="76" x="768" y="192" width="192" height="190"/>
+  <object id="229" name="window" type="window" gid="76" x="1536" y="192" width="192" height="190"/>
+  <object id="230" name="window" type="window" gid="76" x="2368" y="192" width="192" height="190"/>
+  <object id="231" name="window" type="window" gid="76" x="2816" y="192" width="192" height="190"/>
+  <object id="232" name="window" type="window" gid="76" x="128" y="192" width="192" height="190"/>
+ </objectgroup>
+ <objectgroup id="3" name="Слой объектов 2">
+  <object id="237" name="smoke" type="smoke" gid="77" x="1566.18" y="1175.24" width="121" height="118"/>
+  <object id="239" name="flower" type="flower" gid="78" x="1014.67" y="338" width="257" height="139"/>
+  <object id="240" name="flower" type="flower" gid="78" x="1344" y="1024" width="257" height="139"/>
+  <object id="243" name="flower" type="flower" gid="2147483726" x="2880" y="1408" width="257" height="139"/>
+ </objectgroup>
+</map>
