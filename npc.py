@@ -2,12 +2,13 @@ import pygame
 import os
 from settings import *
 
+
 class NPC(pygame.sprite.Sprite):
     def __init__(self, pos, *groups):
         super().__init__(*groups)
         self.sprites = {
-            'up': pygame.image.load(os.path.join('..', 'images', 'npc_down.png')).convert_alpha(),
-            'down': pygame.image.load(os.path.join('..', 'images', 'npc_up.png')).convert_alpha()
+            'up': pygame.image.load(os.path.join('', 'images', 'npc_down.png')).convert_alpha(),
+            'down': pygame.image.load(os.path.join('', 'images', 'npc_up.png')).convert_alpha()
         }
         self.image = self.sprites['down']
         self.rect = self.image.get_rect(center=pos)

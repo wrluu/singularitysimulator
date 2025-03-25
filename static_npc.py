@@ -2,10 +2,11 @@ import pygame
 import os
 from settings import *
 
+
 class Ksu(pygame.sprite.Sprite):
     def __init__(self, pos, *groups):
         super().__init__(*groups)
-        self.image = pygame.image.load(os.path.join('..', 'images', 'ksu_down.png')).convert_alpha()
+        self.image = pygame.image.load(os.path.join('', 'images', 'ksu_down.png')).convert_alpha()
         self.rect = self.image.get_rect(center=pos)
 
     def check_collision(self, direction):
@@ -24,10 +25,11 @@ class Ksu(pygame.sprite.Sprite):
                         self.rect.top = sprite.rect.bottom
                     self.pos.y = self.rect.centery
 
+
 class Yarik(pygame.sprite.Sprite):
     def __init__(self, pos, *groups):
         super().__init__(*groups)
-        self.image = pygame.image.load(os.path.join('..', 'images', 'yarik_down.png')).convert_alpha()
+        self.image = pygame.image.load(os.path.join('', 'images', 'yarik_down.png')).convert_alpha()
         self.rect = self.image.get_rect(center=pos)
 
     def check_collision(self, direction):

@@ -2,14 +2,15 @@ import pygame
 import os
 from settings import *
 
+
 class Player(pygame.sprite.Sprite):
     def __init__(self, pos, *groups, collision_sprites):
         super().__init__(*groups)
         self.sprites = {
-            'up': pygame.image.load(os.path.join('..', 'images', 'player_up.png')).convert_alpha(),
-            'down': pygame.image.load(os.path.join('..', 'images', 'player_down.png')).convert_alpha(),
-            'left': pygame.image.load(os.path.join('..', 'images', 'player_left.png')).convert_alpha(),
-            'right': pygame.image.load(os.path.join('..', 'images', 'player_right.png')).convert_alpha()
+            'up': pygame.image.load(os.path.join('', 'images', 'player_up.png')).convert_alpha(),
+            'down': pygame.image.load(os.path.join('', 'images', 'player_down.png')).convert_alpha(),
+            'left': pygame.image.load(os.path.join('', 'images', 'player_left.png')).convert_alpha(),
+            'right': pygame.image.load(os.path.join('', 'images', 'player_right.png')).convert_alpha()
         }
         self.image = self.sprites['down']
         self.rect = self.image.get_rect(center=pos)
